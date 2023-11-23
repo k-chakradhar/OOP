@@ -1,0 +1,27 @@
+Class--> class is a blueprint for creating the objects
+
+Object --> An object is an instance of a class that has its own state and behavior.
+
+__ init __ --> The init method in Python is a special method that is automatically called when an object of a class is created.
+It is also known as the constructor or the initializer of the class. The purpose of the init method is to initialize the attributes of the object with the values passed as arguments when the object is created.
+The first parameter of the init method is always self, which refers to the current object.
+
+Self --> The self parameter in Python is a way of referring to the current object within a class.
+It is used to access or modify the attributes or methods of the object. 
+The self parameter is not a keyword in Python
+
+----> In oop's functions are called as 'methods'.
+
+
+-----------> VARIABLES <--------------
+
+Three types of variables.
+1.Instance variables
+2.Class/Static variables
+3.Method/Local variables
+
+
+1.instance variables--> variables are created with in the init is called instance variables, 
+1.1-->we can acess the instance variables by using object reference variable outside the class
+1.2-->we can acess the instance variables by using self parameter inside the class
+2.Class/Static variables--> variables are created with in the class or outside init is called Static variables
